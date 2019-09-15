@@ -83,30 +83,41 @@ prompt: Do you want to save the selected configuration. Reinstalling the depende
 
 `var firebase = require("nativescript-plugin-firebase");
 `
-`firebase.init({
-  // Optionally pass in properties for database, authentication and cloud messaging,
-  // see their respective docs.
-}).then(
+
+  firebase.init({
+    // Optionally pass in properties for database, authentication and cloud messaging,
+
+    // see their respective docs.
+  }).then(
+
     function () {
       console.log("firebase.init done");
     },
     function (error) {
       console.log("firebase.init error: " + error);
-    }
-);`
+    });
 
 ## Enable multiDexEnabled in app.gradle
 
-`android {
-  defaultConfig {
-    minSdkVersion 17
+`android {`
+
+`defaultConfig {`
+
+    `minSdkVersion 17`
+
     generatedDensities = []
+
     multiDexEnabled true
-  }
-  aaptOptions {
-    additionalParameters "--no-version-vectors"
-  }
-}`
+
+`}`
+
+`aaptOptions {`
+
+    `additionalParameters "--no-version-vectors"`
+
+`}`
+
+`}`
 
 ## Run build
 
@@ -116,16 +127,25 @@ tns run android
 ```
 ## Error message
 
-`Failed with these Error
-Note: Recompile with -Xlint:deprecation for details.
-Skip com.google.errorprone.annotations.IncompatibleModifiers
-        Error: java.lang.NullPointerException
-WARNING: Skipping interface org.apache.http.client.ResponseHandler implemented in com.google.firebase.perf.network.zzg as it cannot be resolved
-Project successfully built.
-The build result is located at: /home/erss400/Desktop/projects/jekalowa/apps/Example/platforms/android/app/build/outputs/apk/debug/app-debug.apk
-Installing on device 8c5669bf...
-Successfully installed on device with identifier '8c5669bf'.
-Unable to apply changes on device: 8c5669bf. Error is: Socket connection timed out..
+`Failed with these Error`
+
+`Note: Recompile with -Xlint:deprecation for details.`
+
+`Skip com.google.errorprone.annotations.IncompatibleModifiers`
+
+`Error: java.lang.NullPointerException`
+
+`WARNING: Skipping interface org.apache.http.client.ResponseHandler implemented in com.google.firebase.perf.network.zzg as it cannot be resolved`
+
+`Project successfully built.`
+
+`The build result is located at: /home/erss400/Desktop/projects/jekalowa/apps/Example/platforms/android/app/build/outputs/apk/debug/app-debug.apk`
+
+`Installing on device 8c5669bf...`
+
+`Successfully installed on device with identifier '8c5669bf'.`
+
+`Unable to apply changes on device: 8c5669bf. Error is: Socket connection timed out..
 `
 ## Run build
 
@@ -139,13 +159,23 @@ tns run android
 
 ## Error message
 
-Still fails with these Error
-Note: Recompile with -Xlint:deprecation for details.
-Skip com.google.errorprone.annotations.IncompatibleModifiers
-        Error: java.lang.NullPointerException
-WARNING: Skipping interface org.apache.http.client.ResponseHandler implemented in com.google.firebase.perf.network.zzg as it cannot be resolved
-Project successfully built.
-The build result is located at: /home/erss400/Desktop/projects/jekalowa/apps/Example/platforms/android/app/build/outputs/apk/debug/app-debug.apk
-Installing on device 8c5669bf...
-Successfully installed on device with identifier '8c5669bf'.
-Unable to apply changes on device: 8c5669bf. Error is: Socket connection timed out..
+`Failed with these Error`
+
+`Note: Recompile with -Xlint:deprecation for details.`
+
+`Skip com.google.errorprone.annotations.IncompatibleModifiers`
+
+`Error: java.lang.NullPointerException`
+
+`WARNING: Skipping interface org.apache.http.client.ResponseHandler implemented in com.google.firebase.perf.network.zzg as it cannot be resolved`
+
+`Project successfully built.`
+
+`The build result is located at: /home/erss400/Desktop/projects/jekalowa/apps/Example/platforms/android/app/build/outputs/apk/debug/app-debug.apk`
+
+`Installing on device 8c5669bf...`
+
+`Successfully installed on device with identifier '8c5669bf'.`
+
+`Unable to apply changes on device: 8c5669bf. Error is: Socket connection timed out..
+`
