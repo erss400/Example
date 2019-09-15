@@ -23,61 +23,61 @@ tns plugin add nativescript-plugin-firebase
 
 NativeScript Firebase Plugin Installation
 
-No existing firebase.nativescript.json config file found, so let's configure the Firebase plugin!
+    No existing firebase.nativescript.json config file found, so let's configure the Firebase plugin!
 
-prompt: Are you using this plugin ONLY as a Push Notification client for an external (non-Firebase) Push service? (y/n):  (n) n
+    prompt: Are you using this plugin ONLY as a Push Notification client for an external (non-Firebase) Push service? (y/n):  (n) n
 
-prompt: Are you using iOS (y/n):  (y) y
+    prompt: Are you using iOS (y/n):  (y) y
 
-prompt: Are you using Android (y/n):  (y) y
+    prompt: Are you using Android (y/n):  (y) y
 
-prompt: Are you using Firestore? (y/n):  (n) y
+    prompt: Are you using Firestore? (y/n):  (n) y
 
-prompt: Are you using Realtime DB? (y/n):  (n) y
+    prompt: Are you using Realtime DB? (y/n):  (n) y
 
-prompt: Are you using Firebase Authentication (pretty likely if you use Firestore or Realtime DB)? (y/n):  (y) y
+    prompt: Are you using Firebase Authentication (pretty likely if you use Firestore or Realtime DB)? (y/n):  (y) y
 
-prompt: Are you using Firebase RemoteConfig? (y/n):  (n) y
+    prompt: Are you using Firebase RemoteConfig? (y/n):  (n) y
 
-prompt: Are you using Performance Monitoring? (y/n):  (n) y
+    prompt: Are you using Performance Monitoring? (y/n):  (n) y
 
-prompt: Are you using Firebase Cloud Messaging? (y/n):  (n) y
+    prompt: Are you using Firebase Cloud Messaging? (y/n):  (n) y
 
-prompt: Are you using In-App Messaging? (y/n):  (n) y
+    prompt: Are you using In-App Messaging? (y/n):  (n) y
 
-prompt: Are you using Firebase Crashlytics? (y/n):  (n) y
+    prompt: Are you using Firebase Crashlytics? (y/n):  (n) y
 
-prompt: Are you using Firebase Storage? (y/n):  (n) y
+    prompt: Are you using Firebase Storage? (y/n):  (n) y
 
-prompt: Are you using Firebase Cloud Functions? (y/n):  (n) y
+    prompt: Are you using Firebase Cloud Functions? (y/n):  (n) y
 
-prompt: Are you using Firebase Facebook Authentication? (y/n):  (n) y
+    prompt: Are you using Firebase Facebook Authentication? (y/n):  (n) y
 
-prompt: Are you using Firebase Google Authentication? (y/n):  (n) y
+    prompt: Are you using Firebase Google Authentication? (y/n):  (n) y
 
-prompt: Are you using AdMob? (y/n):  (n) y
+    prompt: Are you using AdMob? (y/n):  (n) y
 
-prompt: Are you using Firebase Dynamic Links? (y/n):  (n) y
+    prompt: Are you using Firebase Dynamic Links? (y/n):  (n) y
 
-prompt: Are you using ML Kit? (y/n):  (n) n
+    prompt: Are you using ML Kit? (y/n):  (n) n
 
-Successfully created iOS (Pod) file.
+    Successfully created iOS (Pod) file.
 
-Install google-service.json after-prepare copy hook.
+    Install google-service.json after-prepare copy hook.
 
-Install google-service.json before-checkForChanges copy hook.
+    Install google-service.json before-checkForChanges copy hook.
 
-Install Crashlytics buildscript hook.
+    Install Crashlytics buildscript hook.
 
-Successfully created Android (include.gradle) file.
+    Successfully created Android (include.gradle) file.
 
-Install google-service.json after-prepare copy hook.
+    Install google-service.json after-prepare copy hook.
 
-Install google-service.json before-checkForChanges copy hook.
+    Install google-service.json before-checkForChanges copy hook.
 
-Firebase post install completed. To re-run this script, navigate to the root directory of `nativescript-plugin-firebase` in your `node_modules` folder and run: `npm run config`.
+    Firebase post install completed. To re-run this script, navigate to the root directory of `nativescript-plugin-firebase` in your `node_modules` folder and run: `npm run config`.
 
-prompt: Do you want to save the selected configuration. Reinstalling the dependency will reuse the setup from: firebase.nativescript.json. CI will be easier. (y/n):  (y) y
+    prompt: Do you want to save the selected configuration. Reinstalling the dependency will reuse the setup from: firebase.nativescript.json. CI will be easier. (y/n):  (y) y
 
 ## Setup plugin in main.js
 
