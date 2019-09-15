@@ -99,25 +99,16 @@ prompt: Do you want to save the selected configuration. Reinstalling the depende
 
 ## Enable multiDexEnabled in app.gradle
 
-`android {`
-
-`defaultConfig {`
-
-    `minSdkVersion 17`
-
-    generatedDensities = []
-
-    multiDexEnabled true
-
-`}`
-
-`aaptOptions {`
-
-    `additionalParameters "--no-version-vectors"`
-
-`}`
-
-`}`
+    android {
+      defaultConfig {
+        minSdkVersion 17
+        generatedDensities = []
+        multiDexEnabled true
+      }
+      aaptOptions {
+        additionalParameters "--no-version-vectors"
+      }
+    }
 
 ## Run build
 
