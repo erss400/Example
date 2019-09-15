@@ -81,9 +81,9 @@ prompt: Do you want to save the selected configuration. Reinstalling the depende
 
 ## Setup plugin in main.js
 
-var firebase = require("nativescript-plugin-firebase");
-
-firebase.init({
+`var firebase = require("nativescript-plugin-firebase");
+`
+`firebase.init({
   // Optionally pass in properties for database, authentication and cloud messaging,
   // see their respective docs.
 }).then(
@@ -93,11 +93,11 @@ firebase.init({
     function (error) {
       console.log("firebase.init error: " + error);
     }
-);
+);`
 
 ## Enable multiDexEnabled in app.gradle
 
-android {
+`android {
   defaultConfig {
     minSdkVersion 17
     generatedDensities = []
@@ -106,7 +106,7 @@ android {
   aaptOptions {
     additionalParameters "--no-version-vectors"
   }
-}
+}`
 
 ## Run build
 
@@ -116,7 +116,7 @@ tns run android
 ```
 ## Error message
 
-Failed with these Error
+`Failed with these Error
 Note: Recompile with -Xlint:deprecation for details.
 Skip com.google.errorprone.annotations.IncompatibleModifiers
         Error: java.lang.NullPointerException
@@ -126,7 +126,7 @@ The build result is located at: /home/erss400/Desktop/projects/jekalowa/apps/Exa
 Installing on device 8c5669bf...
 Successfully installed on device with identifier '8c5669bf'.
 Unable to apply changes on device: 8c5669bf. Error is: Socket connection timed out..
-
+`
 ## Run build
 
 ``` bash
