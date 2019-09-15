@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "908560355584",
+    "firebase_url": "https://jekalowa-99a01.firebaseio.com",
+    "project_id": "jekalowa-99a01",
+    "storage_bucket": "jekalowa-99a01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908560355584:android:6f0b3f3aeab009c63e63e5",
+        "android_client_info": {
+          "package_name": "com.pavewaytechnologies.jekalowa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908560355584-04r0vl2ecj01v897ijav133kjbkerg05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pavewaytechnologies.jekalowa",
+            "certificate_hash": "8d0d5682d09c0381c795f0d4454ff24752453e73"
+          }
+        },
+        {
+          "client_id": "908560355584-etslffmd5gn8so67acn99eijtujuvcib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHGsK5vB0scRB_xj42r2-0_PyO6YtW0R0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908560355584-etslffmd5gn8so67acn99eijtujuvcib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
